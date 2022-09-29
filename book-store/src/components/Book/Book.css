@@ -1,0 +1,178 @@
+.ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+
+}
+.card{
+    margin: 33px auto;
+    padding: 1rem;
+    flex-direction: column;
+    justify-content: center;
+    width: 30rem;
+    height: 38rem;
+    align-items: center;
+    box-shadow: 11px 11px 19px #ccc;
+}
+
+img{
+    width: 34%;
+}
+.book{
+    margin: 10px;
+    padding: 10px;
+  width: 250px;
+  max-width: 250px;
+  max-height: 400px;
+  justify-content: flex-start;
+
+}
+
+.btn_{
+    margin: 3px;
+}
+
+.btnContainer{
+    display: block;
+}
+
+  .card article {
+    padding: 5px;
+  }
+  .card h3 {
+    padding: 4px;
+  }
+  
+  .card p {
+    padding: 3x;
+  }
+  .link{
+    text-decoration: none;
+    color: white;
+  }
+  .container_{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  .card_{
+    margin: 30px 50px 45px 50px;
+
+  }
+  .rows{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  ._img{
+    width: 10%;
+  }
+
+  .card-top img{
+    width: 50%;
+    height: 50%;
+    overflow: hidden;
+    
+  }
+
+  .slick-slide>div{
+    margin: 0 10px;
+  }
+  .slick-list{
+    padding:0px 0 0 59px
+  }
+
+  .slider-container{
+    width: 90%;
+    margin: 0 auto 70px;
+    margin-top: 50px;
+  }
+  /* .App{
+    background-color: rgb(241, 235, 235);
+  } */
+ 
+  a{
+    text-decoration: none;
+    color: black;
+  }
+  a:hover{
+    text-decoration: none;
+    color: rgb(40, 37, 37);
+  }
+
+  .footer{
+    /* display: flex; */
+    margin: 50px 0 0 0;
+    background-color: #1c2331;
+    padding: 30px;
+    color: white;
+    
+  }
+  .footer-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .storeName{
+    display: flex;
+    justify-content: center;
+
+  }
+  .aboutBookStore{
+    padding: 22px;
+  }
+  .contact{
+    padding: 0 22px;
+  }
+
+  .links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .content-{
+    height: 5.5rem;
+  }
+  .readBook{
+    color: black;
+  }
+  .read .container{
+    border: 1px solid black;
+    display: flex;
+  }
+  .img- img{
+    width: 75%;
+    margin: 30px;
+    border: 1px solid black;
+  }
+  .title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .names{
+    display: block;
+  }
+  .read{
+    margin: 30px 0 0 0;
+  }
+  .content{
+    margin: 30px;
+  }
+  .btnContainer{
+    margin: 10px 0;
+  }
+  @media (min-width:480px) and (min-height:844px) and (max-width:2480px){
+    .footer--{
+      position: fixed;
+   bottom: 0;
+   width: 100%;
+   height: -1px;  
+    }
+  }
